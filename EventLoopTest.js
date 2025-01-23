@@ -1,7 +1,6 @@
-/*
-비동기 처리 예제,
-setTimeout에서 1000ms를 기다리는 동안
-console.log('들어간거 맞아?'); 명령어가 먼저 실행된다.
+// 비동기 처리 예제,
+// setTimeout에서 1000ms를 기다리는 동안
+// console.log('들어간거 맞아?'); 명령어가 먼저 실행된다.
 
 console.log('잘 들어갔어?');
 
@@ -11,4 +10,3 @@ setTimeout(function() {		// 비동기 함수이기에 Web APIs로 이동. Web AP
 
 console.log('들어간거 맞아?');
 
-*/
